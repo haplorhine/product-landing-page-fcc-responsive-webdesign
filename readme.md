@@ -1,4 +1,4 @@
-## Survey Form
+## Product Landing Page
 A freeCodecamp project for practicing responsive web design with pure html and css.
 
 Project description: [https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
