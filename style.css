@@ -2,9 +2,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
 header {
-    height: 10em;
-    background: orange;
+    height: 12em;
+    background: rgb(220, 220, 220);
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,6 +16,7 @@ header {
     flex-direction: column;
     padding: 1em;
     justify-content: space-between;
+    transition: background, box-shadow, .3s;
   }
 
 @media screen and (min-width: 400px) {
@@ -34,36 +39,39 @@ nav ul{
 }
 
 @media screen and (min-width: 400px) {
+    nav {
+        display: flex;
+        flex-basis: 300px; /* width of the flex item when there is enough space */
+        align-items: center;
+    }
     nav ul{
         display: flex;
+        width: 100%;
         justify-content: space-between;
     }
 }
 
 ul li a {
-    padding: 1em;
+    color: black;
+    font-size: 1.5em;
+    padding: .2em;
+    text-decoration: none;
 }
   
 main {
-    background: red;
-    margin-top: 10em;
-    padding: 1em;
+    background: rgb(220, 220, 220);
+    padding: 12em 0 1em 1em;
 }
 
 @media screen and (min-width: 400px) {
     main {
-        margin-top: 5em;
+        padding-top: 5em;
     }
 }
 
 .wrapper {
-    background: gray;
     max-width: 900px;
     margin: 0 auto;
-}
-
-#one h2 {
-    display: block;
 }
 
 #two {
@@ -71,10 +79,6 @@ main {
     height: 600px;
 }
 
-#three {
-    background: blue;
-    padding: 1em;
-}
 
 #video {
     max-width: 560px;
