@@ -47,12 +47,12 @@ ul li a {
 }
 
 @media screen and (min-width: 477px) {
-    nav {
+    #nav-bar {
         display: flex;
         flex-basis: 400px; /* width of the flex item when there is enough space */
         align-items: center;
     }
-    nav ul{
+    #nav-bar ul{
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -60,14 +60,14 @@ ul li a {
 }
 
 @media screen and (min-width: 530px) {
-    ul li a {
+    #nav-bar li a {
         font-size: 1.2em;
     }
 }
   
 main {
     background: rgb(235 235 235);
-    padding: 10em 1em 1em 1em;
+    padding: 10em 1em 0;
 }
 
 @media screen and (min-width: 477px) {
@@ -216,6 +216,27 @@ input {
         z-index: 100;
     }
 }
+
+.footer {
+    background: #d6d6d6;
+    padding: 1em;
+    text-align: center;
+    border-radius: .5em .5em 0 0;
+}
+
+footer li{
+    display: inline;
+}
+
+
+@media screen and (min-width: 477px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
 
 
 /**********************************
