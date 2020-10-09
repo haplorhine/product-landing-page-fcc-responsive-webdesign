@@ -20,17 +20,16 @@ header {
     transition: background, box-shadow, .3s;
   }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 477px) {
     header {
         flex-direction: row;
         height: 5em;
     }
 }
 
-#header-img {
+.logo {
     width: 200px;
-    min-width: 200px;
-    height: auto;
+    flex-shrink: 0;
     align-self: center;
 }
 
@@ -47,7 +46,7 @@ ul li a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 477px) {
     nav {
         display: flex;
         flex-basis: 400px; /* width of the flex item when there is enough space */
@@ -58,9 +57,11 @@ ul li a {
         width: 100%;
         justify-content: space-between;
     }
+}
+
+@media screen and (min-width: 530px) {
     ul li a {
-        font-size: 1.5em;
-        padding: .2em;
+        font-size: 1.2em;
     }
 }
   
