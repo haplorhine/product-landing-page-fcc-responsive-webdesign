@@ -234,7 +234,7 @@ Snippet adapted from CSS-tricks
     pointer-events: none;
   }
 
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 477px) {
     .jumplink::before {
         margin-top: -5em; 
         height: 5em; 
