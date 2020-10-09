@@ -67,10 +67,10 @@ ul li a {
   
 main {
     background: rgb(235 235 235);
-    padding: 12em 1em 1em 1em;
+    padding: 10em 1em 1em 1em;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 477px) {
     main {
         padding-top: 5em;
     }
