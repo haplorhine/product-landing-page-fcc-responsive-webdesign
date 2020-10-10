@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    height: 10em;
+    height: 8em;
     z-index: 110;
     background: rgb(235 235 235);
     position: fixed;
@@ -20,6 +20,12 @@ header {
     transition: background, box-shadow, .3s;
   }
 
+  #nav-bar ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 @media screen and (min-width: 477px) {
     header {
         flex-direction: row;
@@ -28,7 +34,7 @@ header {
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     flex-shrink: 0;
     align-self: center;
 }
@@ -52,10 +58,8 @@ ul li a {
         flex-basis: 400px; /* width of the flex item when there is enough space */
         align-items: center;
     }
-    #nav-bar ul{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
+    .logo {
+        width: 200px;
     }
 }
 
